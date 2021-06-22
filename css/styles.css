@@ -168,12 +168,12 @@ sup {
 }
 
 a {
-  color: #6c757d;
+  color: var(--gray-dark);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: var(--cyan);
   text-decoration: underline;
 }
 
@@ -10011,7 +10011,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: var(--gray-dark);
 }
 
 @media (min-width: 992px) {
